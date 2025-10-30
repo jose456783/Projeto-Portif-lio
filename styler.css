@@ -142,19 +142,22 @@ li {
 }
 
 .rodape {
+  display:flex;
     padding: 15px 5%;
     background: rgb(187, 187, 187);
     color: #ccc;
     text-align: center;
     font-size: 0.9em;
+    justify-content: center;
 }
 
 /* Estilo para os Ícones de Redes Sociais */
 .rodape img {
+ 
     width: 24px; 
     height: 24px; 
     vertical-align: middle; /* Alinha o ícone com o texto ao lado */
-    margin: 0 5px;
+    margin: 0 5px; 
 }
 
 /* ====== RESPONSIVIDADE ====== */
